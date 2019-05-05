@@ -82,7 +82,7 @@ nav ul li:hover > ul {
 }
 
 #img1:hover {
-        content: url(/Images/chen.jpg);
+        content: url(../Images/chen.jpg);
         width: 413PX;
         height: 372px;
 }
