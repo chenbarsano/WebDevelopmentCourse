@@ -1,8 +1,9 @@
 body {
     direction: rtl;
-    background-image: url("../Images/bg.jpg");
+    background-image: url("/Images/bg.jpg");
     background-size: cover;
-    height: 1330px;
+    height: 400px;
+    overflow: hidden;
 }
 
 #container {
@@ -16,7 +17,7 @@ nav ul li {
     text-align: center;
 }
 
-    nav ul li a {
+nav ul li a {
         display: inline-block;
         background-color: #2f2f33;
         color: white;
@@ -24,25 +25,25 @@ nav ul li {
         height: 30px;
         padding-top: 10px;
         text-decoration: none;
-    }
+}
 
-    nav ul li a:hover {
+nav ul li a:hover {
             background-color: #3097D2;
-        }
+}
 
-    nav ul li a:active {
+nav ul li a:active {
             background-color: #89D6F9;
-        }
+}
 
-    nav ul li ul {
+nav ul li ul {
         display: none;
         position: absolute;
-    }
+}
 
-    nav ul li:hover > ul {
+nav ul li:hover > ul {
         display: block;
         width: 120px;
-    }
+}
 
 .currentPage {
     background-color: white;
@@ -68,23 +69,23 @@ nav ul li {
     color: #B70303;
     width: 400px;
     position: relative;
-    bottom:250px;
+    bottom:443px;
     font-family: Calibri;
     font-size: 14pt;
 }
 #img1 {
     display: inline-block;
-    background-image: url(../Images/portrait.png);
+    background-image: url(/Images/portrait.png);
     width: 413PX;
     height: 372px;
     float: right;
 }
 
-    #img1:hover {
-        content: url(../Images/chen.jpg);
+#img1:hover {
+        content: url(/Images/chen.jpg);
         width: 413PX;
         height: 372px;
-    }
+}
   
 #audio2 {
     display: inline-block;
@@ -94,6 +95,7 @@ nav ul li {
     margin-right: 190px;
     margin-bottom: 16px;
     position: relative;
-    top: 324px;
-    right: 3px;
+    bottom: 50px;
+    right: 400px;
 }
+ 

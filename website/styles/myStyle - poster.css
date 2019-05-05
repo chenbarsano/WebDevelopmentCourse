@@ -1,8 +1,8 @@
 body {
     direction: rtl;
-    background-image: url("../Images/bg.jpg");
+    background-image: url("/Images/bg.jpg");
     background-size: cover;
-    height: 1200px;
+    height: 1250px;
 }
 
 #container {
@@ -11,7 +11,6 @@ body {
 }
 article{
     padding-top:90px;
-
 }
 
 nav ul li {
@@ -20,7 +19,7 @@ nav ul li {
     text-align: center;
 }
 
-    nav ul li a {
+nav ul li a {
         display: inline-block;
         background-color: #2f2f33;
         color: white;
@@ -28,25 +27,25 @@ nav ul li {
         height: 30px;
         padding-top: 10px;
         text-decoration: none;
-    }
+}
 
-        nav ul li a:hover {
+nav ul li a:hover {
             background-color: #3097D2;
-        }
+}
 
-        nav ul li a:active {
+nav ul li a:active {
             background-color: #89D6F9;
-        }
+}
 
-    nav ul li ul {
+nav ul li ul {
         display: none;
         position: absolute;
-    }
+}
 
-    nav ul li:hover > ul {
+nav ul li:hover > ul {
         display: block;
         width: 120px;
-    }
+}
 
 .currentPage {
     background-color: white;
