@@ -51,13 +51,13 @@ nav ul li:hover > ul {
 }
 
 #first {
-    padding-top:80px;
-    FONT-SIZE: 20PT;
+    padding-top: 80px;
+    font-size: 30pt;
     display: block;
     text-align: center;
     margin-bottom: 44px;
     font-family: Calibri;
-    color:darkred;
+    color: darkred;
 }
 #text1 {
     display: inline-block;

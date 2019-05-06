@@ -2,7 +2,7 @@ body {
     direction: rtl;
     background-image: url(../Images/bg.jpg);
     background-size: cover;
-    height: 1330px;
+    height: 1180px;
 }
 
 #container {
@@ -52,8 +52,10 @@ nav ul li:hover > ul {
 #right {
     display: inline-block;
     float: right;
+    width: 355px;
     font-family: Calibri;
     font-size: 20px;
+    text-align: center;
     color: white;
     background-color: #0D4872;
 }
@@ -62,41 +64,36 @@ nav ul li:hover > ul {
     float: left;
     font-family: Calibri;
     font-size: 20px;
-    color:white;
+    text-align: center;
+    color: white;
     background-color: #0D4872;
 }
 
-#img1{
-    display:inline-block;
+#img1 {
+    display: inline-block;
     width: 355px;
     height: 500px;
-    float:right;
+    float: right;
+    margin-top: 15px;
 }
 #img2 {
     display: inline-block;
-    width: 355px;
+    width: 357px;
     height: 500px;
     float: left;
+    margin-top: 15px;
 }
 #p1 {
     display: inline-block;
-    width: 350px;
     float: right;
     margin-top: 30px;
     font-family: Calibri;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
+    text-align: center;
+    border: 3px solid #0D4872;
 }
-#p2 {
-    display: inline-block;
-    width: 350px;
-    float: left;
-    margin-left:8px;
-    margin-top: 30px;
-    font-family: Calibri;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+
 #video {
     display: inline-block;
     margin-right: 180px;
